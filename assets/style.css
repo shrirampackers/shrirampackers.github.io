@@ -1,0 +1,83 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	margin-bottom: 110px;
+}
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 95px;
+}
+
+.navbar {
+	margin-bottom: 0;
+	border-bottom: none;
+}
+
+.navbar .icon-bar {
+	background-color: #563d7c;
+}
+
+a.navbar-brand, .navbar-nav > li > a {
+	font-weight: 500;
+	color: #563d7c;
+}
+
+.masthead {
+	position: relative;
+	padding: 30px 15px;
+	text-shadow: 0 1px 0 rgba(0,0,0,.1);
+	background-color: #6f5499;
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#563d7c),to(#6f5499));
+	background-image: -webkit-linear-gradient(top,#563d7c 0,#6f5499 100%);
+	background-image: -o-linear-gradient(top,#563d7c 0,#6f5499 100%);
+	background-image: linear-gradient(to bottom,#563d7c 0,#6f5499 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#563d7c', endColorstr='#6F5499', GradientType=0);
+	background-repeat: repeat-x;
+}
+
+.masthead h1, .masthead .lead {
+	font-weight: 300;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.masthead .lead {
+	max-width: 900px;
+	font-size: 20px;
+}
+
+.input-group-addon .glyphicon {
+	font-size: 24px;
+}
+
+.featurette h3 {
+	margin-bottom: 5px;
+	font-weight: 400;
+	color: #333;
+}
+
+h3 .glyphicon {
+	font-size: 80%;
+}
+
+.featurette {
+	padding: 20px 0;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #555;
+	text-align: center;
+}
+
+.footer {
+	border-top: 1px solid #e5e5e5;
+	background-color: #f5f5f5;
+	color: #777;
+}
+
+.footer p {
+	margin: 18px 0;
+}
